@@ -29,6 +29,8 @@ In the experiment we designed, the robot is tasked with reaching a target cell i
 
 #### Environment
 
+The environment is a fixed size rectangular bound that contains fixed size triangles. Each triangle represents either the robot, the goal, an empty space, an static obstacle, or a movable ice. One way to solidate the problem is to model the boundary into static obstacles as well.
+
 #### Potential Solution
 
 假定XX步内有可行解
