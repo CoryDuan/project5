@@ -19,7 +19,7 @@ Both python and c++ version of the BFS algorithm are implemented.
 For the unmovable python algorithm, the average runtime is around 0.036s. For the movable python algorithm, the average runtime is around 0.05s. While the BFS algorithm generally runs faster than our SAT algorithm, and that the unmovable python algorithm provides 100% correct solution, it should be noted that the movable python algorithm works fine with scene 1 but fails to find the solution for scene 2. That is because an optimal algorithm will decide to not push the movable obstacle on [1,4] while the BFS algorithm doesn't hesitate to do so. A better algorithm is needed to fix this problem.
 As shown in the graph, the python algorithm takes input that is modified from the given scene, and outputs the BFS movement each step, the solution, and the tree. 
 ![plot](154b8d179d485fa14ca14e498db064e.png)
-
+![plot](https://github.com/CoryDuan/project5/blob/main/3ffa1de32ede0ffb07782aaf3c3867c.png)
 
 ### Description of Experiments
 
